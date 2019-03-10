@@ -1,0 +1,13 @@
+﻿pause 0.1 move 100 200
+pause 0.17 keydown 1
+pause 0.18 keyup 1
+pause 0.14 keydown 0
+pause 0.16 keyup 0
+pause 0.14 keydown 0
+pause 0.12 keyup 0
+pause 0.11 keydown 2
+pause 0.16 keyup 2
+pause 0.13 keydown 0
+pause 0.18 keyup 0
+pause 0.17 keydown 0
+pause 0.11 keyup 0

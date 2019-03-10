@@ -1,0 +1,10 @@
+﻿{%- for command_ in vdo_command -%}
+{% if 'type' in command_ %}
+{%- for i in '%s'%(command_|utils) -%}
+pause {{i|get_random}} keydown {{i}}
+pause {{i|get_random}} keyup {{i}}
+{% endfor %}
+{%- else -%}
+{{command_}}
+{% endif %}
+{%- endfor -%}
